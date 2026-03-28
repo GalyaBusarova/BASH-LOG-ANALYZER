@@ -24,7 +24,6 @@ for LOG_FILE in $LOG_FILES; do
     done
 done
 
-echo "ERRORS: $TOTAL_ERRORS"
-echo "FATAL: $TOTAL_FATAL"
-echo "CRITICAL: $TOTAL_CRITICAL"
-
+export TOTAL_ERRORS
+export TOTAL_FATAL
+export TOTAL_CRITICAL
