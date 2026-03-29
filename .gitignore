@@ -1,1 +1,6 @@
+# Отчёты
 log_analysis_report.txt
+*.txt
+
+# Системные файлы
+.DS_Store
