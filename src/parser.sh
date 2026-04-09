@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /Users/busarovagalina/bash-log-analyzer/config.conf
+source ./config.conf
 
 LOG_FILES=$(find $LOG_DIR -name "*.log" -type f)
 

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-source /Users/busarovagalina/bash-log-analyzer/config.conf
-source /Users/busarovagalina/bash-log-analyzer/src/parser.sh
+source ./config.conf
+source ./src/parser.sh   
 
-REPORT_FILE="/Users/busarovagalina/bash-log-analyzer/log_analysis_report.txt"
+REPORT_FILE="./log_analysis_report.txt"
 
 echo "==========Log Analysis Report=============" > "$REPORT_FILE"
 echo "==========================================" >> "$REPORT_FILE"
